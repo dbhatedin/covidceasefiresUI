@@ -1,0 +1,387 @@
+{
+  "count": 35,
+  "next": "https://test.pax.peaceagreements.org/covid/api/ceasefires/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "uid": "C10-1",
+      "ceasefire_number": "C10",
+      "version": 1,
+      "declaration_date": "2020-03-23",
+      "start_date": null,
+      "termination_date": null,
+      "countries": [
+        {
+          "id": 144,
+          "region": "Cross-regional",
+          "name": "United Nations",
+          "entity": true,
+          "iso_code": "",
+          "gwno": ""
+        }
+      ],
+      "region_entity": "worldwide",
+      "ucdp_conflict_id": "N/A",
+      "conflict_type": null,
+      "longitude_central": null,
+      "latitude_central": null,
+      "declaration_type": "Other event",
+      "reciprocated": false,
+      "actors": "UN Secretary-General António Guterres\n",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "",
+      "information": "On 23 March 2020, United Nations Secretary General Antonio Guterres called for a global ceasefire to stop violent conflict in support of the fight against the COVID-19 pandemic.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://news.un.org/en/story/2020/03/1059972"
+    },
+    {
+      "uid": "C11-1",
+      "ceasefire_number": "C11",
+      "version": 1,
+      "declaration_date": "2020-03-29",
+      "start_date": "2020-04-01",
+      "termination_date": "2020-04-30",
+      "countries": [
+        {
+          "id": 32,
+          "region": "Americas",
+          "name": "Colombia",
+          "entity": false,
+          "iso_code": "COL",
+          "gwno": "100"
+        }
+      ],
+      "region_entity": "North, northeast and southwest Colombia and Venezuela border regions",
+      "ucdp_conflict_id": "289",
+      "conflict_type": null,
+      "longitude_central": null,
+      "latitude_central": null,
+      "declaration_type": "Unilateral ceasefire",
+      "reciprocated": false,
+      "actors": "National Liberation Army/Ejército de Liberación Nacional (ELN)",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "https://www.politicalsettlements.org/wp-content/uploads/2020/05/CO_200328_The-ELN-National-Liberation-Army-Response-to-the-COVID-19-coronavirus-pandemic.pdf",
+      "information": "The ELN announced a temporary unilateral ceasefire with the Colombian government on 29 March 2020, as \"humanitarian gesture\" in the face of the devastation caused by COVID-19. The statement released on social media networks, reserved the right of the ELN to defend itself against \"attacks by state forces, made up of regular troops, paramilitaries and drug gangs in various regions of the country\". \r\n \r\nThe guerilla group's statement urged the Iván Duque governement to suspend military operations and to resume dialogue with ELN delegates in Cuba to agree on a bilateral and temporary cessation. \r\n \r\nThe ELN also made other demands in the statement including the release of political prisoners, the free provision of the COVID-19 test kits and that \"health must once again be an inalienable right, mandatory coverage by the State\", among others.\r\n\r\nThe ELN's unilateral ceasefire was not reciprocated by the Colombian government. It was termed as \"insufficient\" by the Colombian government's High Commissioner for Peace Miguel Ceballos, who called for the ELN to “extend [its] terms indefinitely” and comply with the Government's set pre-conditions for resuming peace negotiations.",
+      "update_response": "Notably, the Colombian government designated two former guerrilla leaders as promoters of peace. On 14 April 2020, the ELN rejected to accept mediation by the two former commanders, “Francisco Galan” and “Felipe Torres,” termed by the ELN as \"officials\" working in the Government's interest rather than \"mediators\".\r\n \r\nNorway, which has acted as a mediator in the past between the Colombia government and the ELN, welcomed the ELN ceasefire.",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://www.telesurtv.net/news/colombia-eln-declara-cese-fuego-unilateral-coronavirus-20200330-0002.html\r\n \r\nhttps://www.bbc.com/news/world-latin-america-52090169\r\n  \r\nhttps://www.crisisgroup.org/latin-america-caribbean/andes/colombia/b24-broken-ties-frozen-borders-colombia-and-venezuela-face-covid-19\r\n  \r\nhttps://colombiareports.com/colombias-eln-rebels-reject-peace-negotiators/"
+    },
+    {
+      "uid": "C11-2",
+      "ceasefire_number": "C11",
+      "version": 2,
+      "declaration_date": "2020-04-27",
+      "start_date": null,
+      "termination_date": null,
+      "countries": [
+        {
+          "id": 32,
+          "region": "Americas",
+          "name": "Colombia",
+          "entity": false,
+          "iso_code": "COL",
+          "gwno": "100"
+        }
+      ],
+      "region_entity": "North, northeast and southwest Colombia and Venezuela border regions",
+      "ucdp_conflict_id": "289",
+      "conflict_type": null,
+      "longitude_central": null,
+      "latitude_central": null,
+      "declaration_type": "Update to ceasefire",
+      "reciprocated": null,
+      "actors": "National Liberation Army/Ejército de Liberación Nacional (ELN)",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "",
+      "information": "The ELN published a statement on 27 April 2020 announcing that it would not extend its unilateral ceasefire and resume military operations on 1 May 2020. The group cited the \"unfortunate\" unreciprocated response from the Colombian government as the reason for not extending the ceasefire and accused the Colombian government of taking advantage of the unilateral cessation.\r\n\r\nThe Colombian government's High Commissioner for Peace Miguel Ceballos rejected the ELN’s decision, terming it as a \"move away from the reality of the country\" and demanded a permanent ceasefire, release of hostages and forcibly recruited minors, as well as a halt to anti-personnel mine installation. Ceballos had shown no interest in a bilateral ceasefire.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://www.telesurtv.net/news/gobierno-colombiano-exige-eln-cese-fuego-permanente-20200429-0004.html\r\n\r\nhttps://colombiareports.com/eln-ends-coronavirus-ceasefire-weeks-ahead-of-expected-peak-in-infections/\r\n\r\nhttps://twitter.com/DialogosYPaz/status/1254720095340937216/photo/1"
+    },
+    {
+      "uid": "C11-3",
+      "ceasefire_number": "C11",
+      "version": 3,
+      "declaration_date": "2020-05-04",
+      "start_date": null,
+      "termination_date": null,
+      "countries": [
+        {
+          "id": 32,
+          "region": "Americas",
+          "name": "Colombia",
+          "entity": false,
+          "iso_code": "COL",
+          "gwno": "100"
+        }
+      ],
+      "region_entity": "North, northeast and southwest Colombia and Venezuela border regions",
+      "ucdp_conflict_id": "289",
+      "conflict_type": null,
+      "longitude_central": null,
+      "latitude_central": null,
+      "declaration_type": "Other event",
+      "reciprocated": false,
+      "actors": "National Liberation Army/Ejército de Liberación Nacional (ELN)",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "",
+      "information": "On 04/05/2020, the ELN announced it would adopt a defensive strategy during the COVID-19 epidemic. In an interview with Caracol Radio, former peace negotiator Pablo Beltran, a member of the guerrilla group’s Central Command, said that following the one-month ceasefire that ended on 30/04/2020, the group “will not have attack plans, but defense plans.” ELN leadership also urged a bilateral ceasefire and called on the UN and Pope Francis to lobby for this with the Colombian government.\r\n\r\nThe focus of the High Commissioner for Peace is currently on promoting the individual demobilisation of ELN members, having passed a decree that allows members of illegal armed groups, including the ELN, to capitulate to the justice system and be allowed to take part in a reintegration program.The Commissioner reported that 20 ELN guerrillas had demobilized in the southwestern Cauca province at the beginning of May 2020.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://colombiareports.com/colombias-eln-rebels-have-no-offensive-plans-but-defensive-plans-during-coronavirus-crisis/"
+    },
+    {
+      "uid": "C11-4",
+      "ceasefire_number": "C11",
+      "version": 4,
+      "declaration_date": "2020-05-29",
+      "start_date": null,
+      "termination_date": null,
+      "countries": [
+        {
+          "id": 32,
+          "region": "Americas",
+          "name": "Colombia",
+          "entity": false,
+          "iso_code": "COL",
+          "gwno": "100"
+        }
+      ],
+      "region_entity": "",
+      "ucdp_conflict_id": "289",
+      "conflict_type": null,
+      "longitude_central": "-74.0817",
+      "latitude_central": "4.6097",
+      "declaration_type": "Update to ceasefire",
+      "reciprocated": null,
+      "actors": "National Liberation Army/Ejército de Liberación Nacional (ELN)",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "",
+      "information": "Head of negotiating team of the National Liberation Army (ELN), Pablo Beltrán, stated that the ELN would be willing to participate in a three-month global ceasefire that is being discussed at the United Nations to contain the spread of the coronavirus. He says that the group hopes that President Iván Duque will also support the cessation of hostilities.\r\n\r\nPresident Duque demands from the ELN that a unilateral cessation of hostilities must include the suspension of kidnappings, the release of unlawfully detained prisoners, the commitment not to recruit minors and to abandon the use of antipersonnel mines.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://lta.reuters.com/articulo/colombia-guerrilla-idLTAKBN2352CC-OUSLT"
+    },
+    {
+      "uid": "C12-1",
+      "ceasefire_number": "C12",
+      "version": 1,
+      "declaration_date": "2020-03-25",
+      "start_date": "2020-03-29",
+      "termination_date": "2020-04-12",
+      "countries": [
+        {
+          "id": 24,
+          "region": "Africa (excl MENA)",
+          "name": "Cameroon",
+          "entity": false,
+          "iso_code": "CMR",
+          "gwno": "471"
+        }
+      ],
+      "region_entity": "North-West and South-West regions of Ambazonia/ Southern Cameroons",
+      "ucdp_conflict_id": "14129",
+      "conflict_type": null,
+      "longitude_central": "11.5167",
+      "latitude_central": "3.8667",
+      "declaration_type": "Unilateral ceasefire",
+      "reciprocated": false,
+      "actors": "Southern Cameroons Defence Forces (Socadef)",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "https://www.politicalsettlements.org/wp-content/uploads/2020/05/CM_200326_Statement-from-SOCADEF-Ambazonia.pdf",
+      "information": "SOCADEF declared a two-week ceasefire with the Cameroon government on 25/03/2020. Announcing that the cessation of violence would \"permit international humanitarian preparation for COVID-19 prevention\". \r\n \r\nThe Revolutionary High Command Council (REHCOCO) ordered all combat units of SOCADEF and its affiliates operating in nine of the thirteen counties of Ambazonia to stand down but to maintain positions with combat readiness to defend for 14 days. The statement also called on La Republique du Cameroun’s (LRC) forces to stand down or remain in position but not to attack Ambazonians.\r\n\r\n SOCADEF is the only separatist group (out of 15 groups) to have stopped fighting because of the pandemic in the North-West and South-West regions. The Ambazonia Governing Council, which is one of the biggest groups, said that a unilateral ceasefire would open the way for government troops to march unopposed into territory under its control.\r\n\r\nThe Cameroonian government did not reciprocate the ceasefire, with clashes between military and separatists continuing throughout April.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://mimimefoinfos.com/socadef-heeds-to-uns-call-agrees-to-stand-down-for-14-days \r\n \r\n https://www.bbc.co.uk/news/world-africa-52053738 \r\n \r\n https://www.bbc.com/news/world-africa-52551848 \r\n \r\n https://cameroonvoice.com/news/2020/04/13/cameroon-covid-19-allow-aid-access-amid-pandemic-human-rights-watch-recommendation/"
+    },
+    {
+      "uid": "C12-2",
+      "ceasefire_number": "C12",
+      "version": 2,
+      "declaration_date": "2020-03-27",
+      "start_date": null,
+      "termination_date": null,
+      "countries": [
+        {
+          "id": 24,
+          "region": "Africa (excl MENA)",
+          "name": "Cameroon",
+          "entity": false,
+          "iso_code": "CMR",
+          "gwno": "471"
+        }
+      ],
+      "region_entity": "Ambazonia",
+      "ucdp_conflict_id": "14129",
+      "conflict_type": null,
+      "longitude_central": "11.5167",
+      "latitude_central": "3.8667",
+      "declaration_type": "Other event",
+      "reciprocated": null,
+      "actors": "Ambazonia Governing Council",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "https://www.politicalsettlements.org/wp-content/uploads/2020/05/CM_200327_Declaration-on-the-responsibility-to-protect-the-people-of-Ambazonia-during-the-COVID-19-pandemic.pdf",
+      "information": "On 27/03/2020, a statement from Julius Nyiawung, the vice president of the Ambazonia Governing Council, a separatist group claiming to be the legitimate government of the area, said there would not be a unilateral ceasefire.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "http://www.rfi.fr/en/africa/20200327-mixed-reception-to-call-for-coronavirus-ceasefire-in-cameroon-s-anglophone-regions\r\n\r\nhttps://www.bbc.co.uk/news/world-africa-52551848"
+    },
+    {
+      "uid": "C12-3",
+      "ceasefire_number": "C12",
+      "version": 3,
+      "declaration_date": "2020-04-10",
+      "start_date": null,
+      "termination_date": "2020-04-26",
+      "countries": [
+        {
+          "id": 24,
+          "region": "Africa (excl MENA)",
+          "name": "Cameroon",
+          "entity": false,
+          "iso_code": "CMR",
+          "gwno": "471"
+        }
+      ],
+      "region_entity": "North-West and South-West regions of Ambazonia/ Southern Cameroons",
+      "ucdp_conflict_id": "14129",
+      "conflict_type": null,
+      "longitude_central": null,
+      "latitude_central": null,
+      "declaration_type": "Update to ceasefire",
+      "reciprocated": false,
+      "actors": "Southern Cameroons Defence Forces (Socadef)",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "",
+      "information": "SOCADEF extended an initial two week ceasefire on 10/04/2020 to \"permit additional international humanitarian preparation for COVID-19 preparation\" and demanding that the government of Cameroon respects the global ceasefire call by UN SG \r\n \r\nThe statement made special mention of the plight of internally displaced persons (IDPs) and refugees, stating that 3 million Ambazonians fall under these categories. The statement also acknowledged the \"imperfect\" nature of the ceasefire, noting that SOCADEF has opened lines of communication with LRC field commanders to facilitate the ceasefire. The Commander-In-Chief of SOCADEF, Dr. Ebenzer Akwanga says he expects the extension would also give the International Committee of the Red Cross time to qualify the war in Southern Cameroons (Ambazonia) as a Non International Armed Conflict, NIAC.\r\n\r\nOther Armed Non State Actors have said a ceasefire in the northwest and southwest regions, now preferred as Ambazonia, must start with the government withdrawing its troops and must be supervised by the international community",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://cameroonnewsagency.com/socadef-extends-covid-19-temporary-ceasefire-says-conflict-must-be-qualified/\r\n\r\nhttps://www.un.org/sg/en/content/sg/note-correspondents/2020-03-26/note-correspondents-%E2%80%93-response-questions-the-humanitarian-truce-announced-forces-northeast-syria"
+    },
+    {
+      "uid": "C12-4",
+      "ceasefire_number": "C12",
+      "version": 4,
+      "declaration_date": "2020-04-25",
+      "start_date": null,
+      "termination_date": null,
+      "countries": [
+        {
+          "id": 24,
+          "region": "Africa (excl MENA)",
+          "name": "Cameroon",
+          "entity": false,
+          "iso_code": "CMR",
+          "gwno": "471"
+        }
+      ],
+      "region_entity": "Ambazonia",
+      "ucdp_conflict_id": "14129",
+      "conflict_type": null,
+      "longitude_central": "11.5167",
+      "latitude_central": "3.8667",
+      "declaration_type": "Update to ceasefire",
+      "reciprocated": null,
+      "actors": "Southern Cameroons Defence Forces (Socadef)",
+      "actor_types": [
+        {
+          "code": "non-state",
+          "name": "Non-state"
+        }
+      ],
+      "pdf": "",
+      "information": "On 25/04/2020, SOCADEF extended its unilateral ceasefire.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://www.hdcentre.org/activities/covid-19-global-response-initiative/\r\nhttps://africanarguments.org/2020/05/27/fighting-continues-anglophone-cameroon-covid-19-concerns/"
+    },
+    {
+      "uid": "C13-1",
+      "ceasefire_number": "C13",
+      "version": 1,
+      "declaration_date": "2020-03-18",
+      "start_date": "2020-03-19",
+      "termination_date": "2020-04-15",
+      "countries": [
+        {
+          "id": 113,
+          "region": "Asia and Pacific",
+          "name": "Philippines",
+          "entity": false,
+          "iso_code": "PHL",
+          "gwno": "840"
+        }
+      ],
+      "region_entity": "Nationwide",
+      "ucdp_conflict_id": "209",
+      "conflict_type": null,
+      "longitude_central": null,
+      "latitude_central": null,
+      "declaration_type": "Unilateral ceasefire",
+      "reciprocated": false,
+      "actors": "Republic of the Philippines",
+      "actor_types": [
+        {
+          "code": "state",
+          "name": "State"
+        }
+      ],
+      "pdf": "",
+      "information": "President Rodrigo Duterte declared a unilateral ceasefire with the Communist Party of the Philippines and its armed wing, the New People's Army, on 18/03/2020 effective from 19/03/2020 to 15/04/2020. Government forces were ordered to stop offensive operations against armed communist rebels so the state could focus on efforts to counter COVID-19. Presidential Spokesperson Salvador Panelo said the President directed the Department of National Defense (DND) and the Department of the Interior and Local Government (DILG) to issue the Suspension of Offensive Military and Police Operations (Somo) to implement the ceasefire.\r\n\r\nBoth the police and the military welcomed the ceasefire, saying this would allow them to focus on responding to the threat of COVID-19 whilst remaining on defense.",
+      "update_response": "",
+      "past_agreements": "",
+      "past_ceasefires": "",
+      "sources": "https://cnnphilippines.com/news/2020/3/18/duterte-cpp-npa-ceasefire-covid-19.html\r\n \r\n https://news.abs-cbn.com/news/03/18/20/philippines-declares-ceasefire-with-communist-rebels-amid-luzon-lockdown\r\n \r\n https://www.sunstar.com.ph/article/1849031"
+    }
+  ]
+}

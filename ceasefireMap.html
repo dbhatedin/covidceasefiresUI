@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Corona Virus Map</title>
+
+	<link 
+		href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" 
+		rel="stylesheet"/>
+	<style>
+		body {
+			margin: 0;
+		}
+		#map {
+			width: 100vw;
+			height: 100vh;
+		}
+	</style>
+
+	<link title="timeline-styles" rel="stylesheet" 
+		href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+	<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+</head>
+<body>
+	<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+	<script type="text/javascript">
+        // The TL.Timeline constructor takes at least two arguments:
+        // the id of the Timeline container (no '#'), and
+        // the URL to your JSON data file or Google spreadsheet.
+        // the id must refer to an element "above" this code,
+        // and the element must have CSS styling to give it width and height
+        // optionally, a third argument with configuration options can be passed.
+        // See below for more about options.
+        //timeline = new TL.Timeline('timeline-embed',
+        //  'https://docs.google.com/spreadsheets/d/1cWqQBZCkX9GpzFtxCWHoqFXCHg-ylTVUWlnrdYMzKUI/pubhtml');
+
+
+		// var timeline_json = {
+		// "title": {
+		// "background": {
+		// "url": "whatever image URL"
+		// },
+		// "text": {
+		// "headline": "Your headline",
+		// "text": "Your text."
+		// }
+		// },
+		// "events": {
+		// "media": {
+		// "url": "image url",
+		// "thumbnail": "thumbnail url"
+		// },
+		// "start_date": {
+		// "year": "1868"
+		// },
+		// "end_date": {
+		// "year": "1868"
+		// },
+		// "text": {
+		// "headline": "headline",
+		// "text": "text."
+		// },
+		// "group": "if you want to group items",
+		// "display_date": "1868"
+		// }
+		// };
+		var timeline_json = {
+    "title": {
+        "media": {
+          "url": "https://news.un.org/en/story/2020/03/1059972",
+          "caption": "UN Secretary-General António Guterres Calls for CeaseFires",
+          "credit": "https://news.un.org/en/story/2020/03/1059972"
+        },
+        "text": {
+          "headline": "WORLDWIDE: UN Secretary-General António Guterres Calls for CeaseFires",
+          "text": "<p>On 23 March 2020, United Nations Secretary General Antonio Guterres called for a global ceasefire to stop violent conflict in support of the fight against the COVID-19 pandemic.</p>"
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "https://www.telesurtv.net/news/colombia-eln-declara-cese-fuego-unilateral-coronavirus-20200330-0002.html",
+          "caption": "ELN announced a temporary unilateral ceasefire with the Colombian government",
+          "credit": "https://www.telesurtv.net/news/colombia-eln-declara-cese-fuego-unilateral-coronavirus-20200330-0002.html"
+        },
+        "start_date": {
+          "month": "04",
+          "day": "01",
+          "year": "2020"
+        },
+        "end_date": {
+		      "month": "04",
+          "day": "30",
+          "year": "2020"
+        },
+        "text": {
+          "headline": "COLOMBIA: ELN announced a temporary unilateral ceasefire with the Colombian government",
+          "text": "<p>The National Liberation Army/Ejército de Liberación Nacional (ELN) announced a temporary unilateral ceasefire with the Colombian government on 29 March 2020, as \"humanitarian gesture\" in the face of the devastation caused by COVID-19. The statement released on social media networks, reserved the right of the ELN to defend itself against \"attacks by state forces, made up of regular troops, paramilitaries and drug gangs in various regions of the country\". \r\n \r\nThe guerilla group's statement urged the Iván Duque governement to suspend military operations and to resume dialogue with ELN delegates in Cuba to agree on a bilateral and temporary cessation. \r\n \r\nThe ELN also made other demands in the statement including the release of political prisoners, the free provision of the COVID-19 test kits and that \"health must once again be an inalienable right, mandatory coverage by the State\", among others.\r\n\r\nThe ELN's unilateral ceasefire was not reciprocated by the Colombian government. It was termed as \"insufficient\" by the Colombian government's High Commissioner for Peace Miguel Ceballos, who called for the ELN to “extend [its] terms indefinitely” and comply with the Government's set pre-conditions for resuming peace negotiations.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://www.telesurtv.net/news/gobierno-colombiano-exige-eln-cese-fuego-permanente-20200429-0004.html",
+          "caption": "ELN announced a temporary unilateral ceasefire with the Colombian government",
+          "credit": "https://www.telesurtv.net/news/gobierno-colombiano-exige-eln-cese-fuego-permanente-20200429-0004.html"
+        },
+        "start_date": {
+          "month": "04",
+          "day": "27",
+          "year": "2020"
+        },
+        "display_date": {
+          "month": "04",
+          "day": "27",
+          "year": "2020"
+        },
+        "text": {
+          "headline": "COLOMBIA Update to unilateral ceasefire: ELN would not extend its unilateral ceasefire with the Colombian government",
+          "text": "<p>The ELN published a statement on 27 April 2020 announcing that it would not extend its unilateral ceasefire and resume military operations on 1 May 2020. The group cited the \"unfortunate\" unreciprocated response from the Colombian government as the reason for not extending the ceasefire and accused the Colombian government of taking advantage of the unilateral cessation.\r\n\r\nThe Colombian government's High Commissioner for Peace Miguel Ceballos rejected the ELN’s decision, terming it as a \"move away from the reality of the country\" and demanded a permanent ceasefire, release of hostages and forcibly recruited minors, as well as a halt to anti-personnel mine installation. Ceballos had shown no interest in a bilateral ceasefire.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://colombiareports.com/colombias-eln-rebels-have-no-offensive-plans-but-defensive-plans-during-coronavirus-crisis/",
+          "caption": "ELN adopts a defensive strategy during the COVID-19 epidemic",
+          "credit": "https://colombiareports.com/colombias-eln-rebels-have-no-offensive-plans-but-defensive-plans-during-coronavirus-crisis/"
+        },
+        "start_date": {
+          "month": "05",
+          "day": "04",
+          "year": "2020"
+        },
+        "display_date": {
+          "month": "05",
+          "day": "04",
+          "year": "2020"
+        },
+                "text": {
+          "headline": "COLOMBIA Other event: ELN to adopt a defensive strategy during the COVID-19 epidemic",
+          "text": "<p>On 04/05/2020, the ELN announced it would adopt a defensive strategy during the COVID-19 epidemic. In an interview with Caracol Radio, former peace negotiator Pablo Beltran, a member of the guerrilla group’s Central Command, said that following the one-month ceasefire that ended on 30/04/2020, the group “will not have attack plans, but defense plans.” ELN leadership also urged a bilateral ceasefire and called on the UN and Pope Francis to lobby for this with the Colombian government.\r\n\r\nThe focus of the High Commissioner for Peace is currently on promoting the individual demobilisation of ELN members, having passed a decree that allows members of illegal armed groups, including the ELN, to capitulate to the justice system and be allowed to take part in a reintegration program.The Commissioner reported that 20 ELN guerrillas had demobilized in the southwestern Cauca province at the beginning of May 2020.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "https://lta.reuters.com/articulo/colombia-guerrilla-idLTAKBN2352CC-OUSLT",
+          "caption": "ELN willing to participate in a three-month global ceasefire",
+          "credit": "https://lta.reuters.com/articulo/colombia-guerrilla-idLTAKBN2352CC-OUSLT"
+        },
+        "start_date": {
+          "month": "05",
+          "day": "29",
+          "year": "2020"
+        },
+        "display_date": {
+          "month": "05",
+          "day": "29",
+          "year": "2020"
+        },
+                "text": {
+          "headline": "COLOMBIA Update to unilateral ceasefire: ELN willing to participate in a three-month global ceasefire",
+          "text": "<p>Head of negotiating team of the National Liberation Army (ELN), Pablo Beltrán, stated that the ELN would be willing to participate in a three-month global ceasefire that is being discussed at the United Nations to contain the spread of the coronavirus. He says that the group hopes that President Iván Duque will also support the cessation of hostilities.\r\n\r\nPresident Duque demands from the ELN that a unilateral cessation of hostilities must include the suspension of kidnappings, the release of unlawfully detained prisoners, the commitment not to recruit minors and to abandon the use of antipersonnel mines.</p>"
+        }
+      },
+        {
+        "media": {
+          "url": "https://mimimefoinfos.com/socadef-heeds-to-uns-call-agrees-to-stand-down-for-14-days",
+          "caption": "CAMEROON SOCADEF declared a two-week ceasefire",
+          "credit": "https://mimimefoinfos.com/socadef-heeds-to-uns-call-agrees-to-stand-down-for-14-days"
+        },
+        "start_date": {
+          "month": "03",
+          "day": "29",
+          "year": "2020"
+        },
+        "end_date": {
+		      "month": "04",
+          "day": "12",
+          "year": "2020"
+        },
+        "display_date": {
+          "month": "03",
+          "day": "25",
+          "year": "2020"
+        },
+                "text": {
+          "headline": "CAMEROON unilateral ceasefire: SOCADEF declared a two-week ceasefire with the Cameroon government on 25/03/2020",
+          "text": "<p>SOCADEF declared a two-week ceasefire with the Cameroon government on 25/03/2020. Announcing that the cessation of violence would \"permit international humanitarian preparation for COVID-19 prevention\". \r\n \r\nThe Revolutionary High Command Council (REHCOCO) ordered all combat units of SOCADEF and its affiliates operating in nine of the thirteen counties of Ambazonia to stand down but to maintain positions with combat readiness to defend for 14 days. The statement also called on La Republique du Cameroun’s (LRC) forces to stand down or remain in position but not to attack Ambazonians.\r\n\r\n SOCADEF is the only separatist group (out of 15 groups) to have stopped fighting because of the pandemic in the North-West and South-West regions. The Ambazonia Governing Council, which is one of the biggest groups, said that a unilateral ceasefire would open the way for government troops to march unopposed into territory under its control.\r\n\r\nThe Cameroonian government did not reciprocate the ceasefire, with clashes between military and separatists continuing throughout April.</p>"
+        }
+      },
+      {
+        "media": {
+          "url": "http://www.rfi.fr/en/africa/20200327-mixed-reception-to-call-for-coronavirus-ceasefire-in-cameroon-s-anglophone-regions",
+          "caption": "CAMEROON SOCADEF declared a two-week ceasefire",
+          "credit": "http://www.rfi.fr/en/africa/20200327-mixed-reception-to-call-for-coronavirus-ceasefire-in-cameroon-s-anglophone-regions"
+        },
+        "start_date": {
+          "month": "03",
+          "day": "27",
+          "year": "2020"
+        },
+        "display_date": {
+          "month": "03",
+          "day": "27",
+          "year": "2020"
+        },
+                "text": {
+          "headline": "CAMEROON unilateral ceasefire: No unilateral ceasefire says Ambazonia Governing Council",
+          "text": "<p>On 27/03/2020, a statement from Julius Nyiawung, the vice president of the Ambazonia Governing Council, a separatist group claiming to be the legitimate government of the area, said there would not be a unilateral ceasefire.</p>"
+        }
+      },
+        {
+        "media": {
+          "url": "http://www.rfi.fr/en/africa/20200327-mixed-reception-to-call-for-coronavirus-ceasefire-in-cameroon-s-anglophone-regions",
+          "caption": "CAMEROON SOCADEF declared a two-week ceasefire",
+          "credit": "http://www.rfi.fr/en/africa/20200327-mixed-reception-to-call-for-coronavirus-ceasefire-in-cameroon-s-anglophone-regions"
+        },
+        "start_date": {
+          "month": "03",
+          "day": "27",
+          "year": "2020"
+        },
+        "display_date": {
+          "month": "03",
+          "day": "27",
+          "year": "2020"
+        },
+                "text": {
+          "headline": "CAMEROON unilateral ceasefire: SOCADEF extended an initial two week ceasefire on 10/04/2020",
+          "text": "<p>SOCADEF extended an initial two week ceasefire on 10/04/2020 to \"permit additional international humanitarian preparation for COVID-19 preparation\" and demanding that the government of Cameroon respects the global ceasefire call by UN SG \r\n \r\nThe statement made special mention of the plight of internally displaced persons (IDPs) and refugees, stating that 3 million Ambazonians fall under these categories. The statement also acknowledged the \"imperfect\" nature of the ceasefire, noting that SOCADEF has opened lines of communication with LRC field commanders to facilitate the ceasefire. The Commander-In-Chief of SOCADEF, Dr. Ebenzer Akwanga says he expects the extension would also give the International Committee of the Red Cross time to qualify the war in Southern Cameroons (Ambazonia) as a Non International Armed Conflict, NIAC.\r\n\r\nOther Armed Non State Actors have said a ceasefire in the northwest and southwest regions, now preferred as Ambazonia, must start with the government withdrawing its troops and must be supervised by the international community</p>"
+        }
+      }
+    ]
+}
+
+		window.timeline = new TL.Timeline('timeline-embed', timeline_json);
+          console.log("343ffff4rrrrrrr");
+        //window.timeline = new TL.Timeline('timeline-embed', timeline_json);
+      </script>
+
+	<div id="map"></div>
+	<!--script type="module" src="client.js"></script-->
+	<script type="module" src="ceasefire-map.js"></script>
+</body>
+</html>
